@@ -4,6 +4,6 @@ agent any
  stages 
  {
     stage('scm checkout') 
-     step {git credentialsId: 'PriyankaGK6/****', url: 'https://github.com/PriyankaGK6/mavenproject.git'}
+     step {git credentialsId: 'PriyankaGK6/Sharvil@123#', url: 'https://github.com/PriyankaGK6/mavenproject.git'}
  } 
 }
