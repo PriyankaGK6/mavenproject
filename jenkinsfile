@@ -1,0 +1,9 @@
+pipeline
+{
+agent any   
+ stages 
+ {
+    stage('scm checkout') 
+     step {git credentialsId: 'PriyankaGK6/****', url: 'https://github.com/PriyankaGK6/mavenproject.git'}
+ } 
+}
