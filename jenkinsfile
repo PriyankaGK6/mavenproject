@@ -4,7 +4,7 @@ agent any
 stages
 {
  stage('scm checkout')
- { steps { git branch: 'master', url: 'https://github.com/prakashk0301/mavenproject' }}
+ { steps { git credentialsId: 'PriyankaGK6/Kanha@12345#', url: 'https://github.com/PriyankaGK6/mavenproject.git' }}
 
 
  stage('code compile')
